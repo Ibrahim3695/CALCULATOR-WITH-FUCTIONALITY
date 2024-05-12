@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div .main-cal-body {
+  width: 24%;
+  height: 80%;
+  border: 1.4px solid #cacaca;
+  border-radius: 45px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-div .main-cal-body .zero-count-div {
+  width: 100%;
+  height: 30%;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: white;
+  display: flex;
+  padding: 20px;
+  padding-top: 7rem;
+  justify-content: flex-end;
+}
+.main-div .main-cal-body .number-main-div {
+  width: 100%;
+  height: 65%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 17px;
+}
+.main-div .main-cal-body .number-main-div p {
+  width: 55px;
+  height: 55px;
+  background-color: #313131;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div .main-cal-body .number-main-div .zero-span {
+  grid-column: span 2;
+  border-radius: 30px;
+  width: 86%;
+}
+.main-div .main-cal-body .number-main-div .gold-color {
+  background: #eea101;
+}
+.main-div .main-cal-body .number-main-div .white-bg {
+  background: #9f9f9f;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
