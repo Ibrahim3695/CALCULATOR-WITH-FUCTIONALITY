@@ -43,7 +43,7 @@
             grid-template-columns: repeat(4, 1fr);
             padding-left: 17px;
 
-            p {
+            button {
                 width: 55px;
                 height: 55px;
                 background-color: #313131;
@@ -51,6 +51,7 @@
                 font-weight: 500;
                 font-size: 24px;
                 font-family: Arial, Helvetica, sans-serif;
+                border: none;
                 color: white;
                 cursor: pointer;
                 @include center;

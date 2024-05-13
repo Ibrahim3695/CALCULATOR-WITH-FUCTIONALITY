@@ -40,7 +40,7 @@
   grid-template-columns: repeat(4, 1fr);
   padding-left: 17px;
 }
-.main-div .main-cal-body .number-main-div p {
+.main-div .main-cal-body .number-main-div button {
   width: 55px;
   height: 55px;
   background-color: #313131;
@@ -48,6 +48,7 @@
   font-weight: 500;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+  border: none;
   color: white;
   cursor: pointer;
   display: flex;

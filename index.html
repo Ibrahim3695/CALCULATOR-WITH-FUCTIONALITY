@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
-
-    <title>calculator</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="main-div">
         <section class="main-cal-body">
             <article class="zero-count-div">0</article>
-
+            
             <article class="number-main-div">
-                <p class="white-bg">AC</p>
-                <p class="white-bg">+/-</p>
-                <p class="white-bg">%</p>
-                <p class="gold-color">/</p>
-                <p>7</p>
-                <p>8</p>
-                <p>9</p>
-                <p class="gold-color">x</p>
-                <p>4</p>
-                <p>5</p>
-                <p>6</p>
-                <p class="gold-color">-</p>
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p class="gold-color">+</p>
-                <p class="zero-span">0</p>
-                <p>.</p>
-                <p class="gold-color">=</p>
+                <button class="white-bg" onclick="clearScreen()">AC</button>
+                <button class="white-bg" onclick="toggleSign()">+/-</button>
+                <button class="white-bg" onclick="addValueToScreen('%')">%</button>
+                <button class="gold-color" onclick="addValueToScreen('/')">÷</button>
+                <button onclick="addValueToScreen('7')">7</button>
+                <button onclick="addValueToScreen('8')">8</button>
+                <button onclick="addValueToScreen('9')">9</button>
+                <button class="gold-color" onclick="addValueToScreen('*')">x</button>
+                <button onclick="addValueToScreen('4')">4</button>
+                <button onclick="addValueToScreen('5')">5</button>
+                <button onclick="addValueToScreen('6')">6</button>
+                <button class="gold-color" onclick="addValueToScreen('-')">-</button>
+                <button onclick="addValueToScreen('1')">1</button>
+                <button onclick="addValueToScreen('2')">2</button>
+                <button onclick="addValueToScreen('3')">3</button>
+                <button class="gold-color" onclick="addValueToScreen('+')">+</button>
+                <button class="zero-span" onclick="addValueToScreen('0')">0</button>
+                <button onclick="addValueToScreen('.')">.</button>
+                <button class="gold-color" onclick="calculate()">=</button>
             </article>
         </section>
     </main>
-
-    <script src="./index.js"></script>
+    <script src="index.js"></script>
 </body>
-
 </html>
